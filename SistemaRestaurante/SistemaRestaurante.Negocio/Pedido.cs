@@ -50,11 +50,11 @@ public class Pedido
 
     public enum StatusPedido
     {
-        PENDENTE,
-        CONFIRMADO,
-        EM_ANDAMENTO,
-        COMPLETO,
-        CANCELADO
+        PENDENTE = 1,
+        CONFIRMADO = 2,
+        EM_ANDAMENTO = 3,
+        COMPLETO = 4,
+        CANCELADO = 5
     }
 }
 }
