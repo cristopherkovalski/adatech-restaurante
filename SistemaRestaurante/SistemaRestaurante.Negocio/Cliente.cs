@@ -16,7 +16,7 @@ namespace SistemaRestaurante.Negocio
             NumeroCliente = numeroCliente;
         }
 
-        public void ExibirInformacoes()
+        public override void ExibirInformacoes()
         {
             
             base.ExibirInformacoes();
