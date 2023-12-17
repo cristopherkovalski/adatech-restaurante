@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SistemaRestaurante",
+    "\\SistemaRestaurante\\SistemaRestaurante",
+    "\\SistemaRestaurante\\SistemaRestaurante.Negocio\\bin",
+    "\\SistemaRestaurante\\SistemaRestaurante.Negocio\\obj"
   ],
-  "SelectedNode": "\\C:\\Users\\T-GAMER\\Source\\Repos\\adatech-restaurante",
   "PreviewInSolutionExplorer": false
 }

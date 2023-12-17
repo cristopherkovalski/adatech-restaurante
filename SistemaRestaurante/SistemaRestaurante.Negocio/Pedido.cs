@@ -3,7 +3,7 @@
 public class Pedido
 {
         private string numeroPedido;
-        private int numeroMesa;
+        private Mesa mesa;
         private List<ItemMenu> itens;
         private double valorTotal;
         private StatusPedido status;
@@ -13,10 +13,10 @@ public class Pedido
         {
 
         }
-        public Pedido(int numeroMesa)
+        public Pedido(Mesa mesa)
         {
             this.numeroPedido = Guid.NewGuid().ToString();
-            this.numeroMesa = numeroMesa;
+            this.mesa = mesa;
             this.itens = new List<ItemMenu>();
             this.status = StatusPedido.PENDENTE;
         }

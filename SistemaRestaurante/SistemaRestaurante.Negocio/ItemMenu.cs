@@ -1,7 +1,7 @@
 ﻿using System;
 
 public class ItemMenu
-    {
+{
         private string nome;
         private string descricao;
         private double preco;
@@ -14,8 +14,8 @@ public class ItemMenu
             this.preco = preco;
             this.categoria = categoria;
         }
-    }
+}
 
 
-}
-}
+
+
