@@ -2,11 +2,11 @@
 
 public class Pedido
 {
-        private string numeroPedido;
-        private Mesa mesa;
-        private List<ItemMenu> itens;
-        private double valorTotal;
-        private StatusPedido status;
+        private string? numeroPedido;
+        private Mesa? mesa;
+        private List<ItemMenu>? itens;
+        private double? valorTotal;
+        private StatusPedido? status;
 
 
         public Pedido()
@@ -21,6 +21,7 @@ public class Pedido
             this.status = StatusPedido.PENDENTE;
         }
 
+
         public void AdicionarItem(ItemMenu item)
         {
             itens.Add(item);
@@ -31,13 +32,23 @@ public class Pedido
             itens.Remove(item);
         }
 
-        public double CalcularValorTotal()
+    public double? CalcularValorTotal()
+    {
+        double total = 0.0;
+
+        if (itens != null)
         {
-     
-            return 0.0;
+            foreach (ItemMenu item in itens)
+            {
+                total += item.Preco;
+            }
         }
 
-        public void ConfirmarPedido()
+        this.valorTotal = total;
+        return this.valorTotal;
+    }
+
+    public void ConfirmarPedido()
         {
             status = StatusPedido.CONFIRMADO;
         }
@@ -46,7 +57,26 @@ public class Pedido
         {
             status = StatusPedido.CANCELADO;
         }
+        public void MostrarItensPedido()
+        {
+        Console.WriteLine($"Itens do Pedido ({numeroPedido}):");
+
+        if (itens != null && itens.Count > 0)
+        {
+            foreach (var item in itens)
+            {
+                Console.WriteLine($"- {item.Nome} | Preço: {item.Preco:C}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Nenhum item no pedido.");
+        }
+
+        Console.WriteLine($"Valor Total: R$ {CalcularValorTotal():C}");
     }
+}
+ 
 
     public enum StatusPedido
     {
@@ -56,5 +86,5 @@ public class Pedido
         COMPLETO = 4,
         CANCELADO = 5
     }
-}
-}
+
+

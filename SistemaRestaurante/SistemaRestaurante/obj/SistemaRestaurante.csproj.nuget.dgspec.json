@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinib\\OneDrive\\Desktop\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante\\SistemaRestaurante.csproj": {}
+    "C:\\Users\\T-GAMER\\Source\\Repos\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante\\SistemaRestaurante.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinib\\OneDrive\\Desktop\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante\\SistemaRestaurante.csproj": {
+    "C:\\Users\\T-GAMER\\Source\\Repos\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante.Negocio\\SistemaRestaurante.Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinib\\OneDrive\\Desktop\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante\\SistemaRestaurante.csproj",
-        "projectName": "SistemaRestaurante",
-        "projectPath": "C:\\Users\\vinib\\OneDrive\\Desktop\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante\\SistemaRestaurante.csproj",
-        "packagesPath": "C:\\Users\\vinib\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinib\\OneDrive\\Desktop\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante\\obj\\",
+        "projectUniqueName": "C:\\Users\\T-GAMER\\Source\\Repos\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante.Negocio\\SistemaRestaurante.Negocio.csproj",
+        "projectName": "SistemaRestaurante.Negocio",
+        "projectPath": "C:\\Users\\T-GAMER\\Source\\Repos\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante.Negocio\\SistemaRestaurante.Negocio.csproj",
+        "packagesPath": "C:\\Users\\T-GAMER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\T-GAMER\\Source\\Repos\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante.Negocio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vinib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\T-GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,9 +34,65 @@
           "warnAsError": [
             "NU1605"
           ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\T-GAMER\\Source\\Repos\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante\\SistemaRestaurante.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\T-GAMER\\Source\\Repos\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante\\SistemaRestaurante.csproj",
+        "projectName": "SistemaRestaurante",
+        "projectPath": "C:\\Users\\T-GAMER\\Source\\Repos\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante\\SistemaRestaurante.csproj",
+        "packagesPath": "C:\\Users\\T-GAMER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\T-GAMER\\Source\\Repos\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\T-GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\T-GAMER\\Source\\Repos\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante.Negocio\\SistemaRestaurante.Negocio.csproj": {
+                "projectPath": "C:\\Users\\T-GAMER\\Source\\Repos\\adatech-restaurante\\SistemaRestaurante\\SistemaRestaurante.Negocio\\SistemaRestaurante.Negocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
         }
       },
       "frameworks": {

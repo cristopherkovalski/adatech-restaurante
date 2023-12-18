@@ -1,8 +1,7 @@
-﻿namespace SistemaRestaurante.Negocio
-{
-    public class abstract Pessoa
+﻿using SistemaRestaurante.Negocio;
+
+    public abstract class Pessoa
     {
-       
         public string Nome { get; set; }
         public string CPF { get; set; }
         public string Email { get; set; }
@@ -16,11 +15,10 @@
             Email = email;
         }
 
-        public void ExibirInformacoes()
+        public virtual void ExibirInformacoes()
         {
             Console.WriteLine($"Nome: {Nome}");
             Console.WriteLine($"CPF: {CPF}");
             Console.WriteLine($"E-mail: {Email}");
         }
     }
-}
